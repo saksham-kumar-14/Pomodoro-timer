@@ -1,0 +1,175 @@
+/*imports*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+
+body{
+    background-color: rgb(194, 64, 64);
+    color: white; 
+}
+
+/*heading*/
+.heading{
+    display: flex; justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vw;
+}
+.heading-section{
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+
+
+/*body*/
+.timer-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 119, 119);
+    width: 30vw; height: 25vw;
+}.timer-body-prev{
+    display: flex;
+    justify-content: center;
+}.timer-btns{
+    display: flex;
+    flex-direction: row;
+}.timer-btn{
+    width: 5.5vw;
+    height: 3vw;
+    border: none;
+    background-color: rgb(233, 119, 119);
+    margin-right: 1vw;
+    font-size: 1.2vw;
+    font-family: 'Karla', sans-serif;
+    color: white; 
+}.timer-btn-selected{
+    width: 5.5vw; height: 3vw;
+    border: none; border-radius: 5px;
+    background-color: white;
+    margin-right: 1vw; font-size: 1.2vw;
+    font-family: 'Karla', sans-serif;
+    color: black;
+}
+.timer-counter{
+    font-size: 7.5vw;
+    font-family: 'Roboto', sans-serif;
+}.start-btn{
+    width: 15vw; height: 4vw;
+    font-family: 'Karla', sans-serif;
+    font-size: 3vw;
+    color: rgb(194, 64, 64);
+    border: none;
+    border-radius: 0.5vw;
+    background-color: white; 
+}.start-btn:hover{
+    cursor: pointer;
+}
+
+/*change settings section*/
+.change-settings-prev{
+    display: flex;
+    justify-content: center;
+}
+.change-settings{
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: solid black 0.2px;
+    border-radius: 10px;
+    padding: 3vw;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+
+}.change-settings-btn{
+    background-color: white;
+    color: rgb(194, 64, 64);
+    font-family: 'Karla', sans-serif;
+    border: solid black 0.3vw; 
+    border-radius: 5px;
+    margin: 0.3vw;
+    font-size: 1.3vw;
+    transition: 0.6s;
+}.change-settings-btn:hover{
+    background-color: rgb(35,35,35);
+    color: white;
+}.cancel-settings-btn{
+    background-color: white;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    border: solid black 0.3vw; 
+    border-radius: 5px; 
+    margin: 0.3vw;
+    font-size: 1.3vw;
+    transition: 0.6s;
+}.cancel-settings-btn:hover{
+    background-color: rgb(35,35,35);
+    color: white;
+}
+
+.settings-form-heading{
+    font-size: 1.1vw;
+    color: rgb(194, 64, 64);
+}.sub-form-heading{
+    font-size: 1.1vw;
+    color: rgb(194, 64, 64);
+}.change-settings-form-btn{
+    width: 5.5vw;
+    height: 3vw;
+    border: none;
+    background-color: white;
+    margin-right: 1vw;
+    font-size: 1.2vw;
+    font-family: 'Karla', sans-serif;
+    color: black; 
+}.change-settings-form-btn:hover{cursor: pointer;}
+.change-settings-form-btn-selected{
+    width: 5.5vw;
+    height: 3vw;
+    border: none;
+    background-color: rgb(233, 119, 119);
+    margin-right: 1vw;
+    font-size: 1.2vw;
+    font-family: 'Karla', sans-serif;
+    color: white; 
+    border-radius: 2vw;
+}
+
+.sub-settings-inputs{
+    outline: none;
+    border: none;
+    background-color: rgb(182, 173, 173);
+    margin: 0.5vw;
+    border-radius: 5px;
+    padding: 1vw;
+    font-size: 1.2vw;
+    font-family: 'Open Sans', sans-serif;
+}.sub-settings-inputs::placeholder{color: rgb(80,80,80); font-family: 'Open Sans', sans-serif; }
+
+.sub-settings-btn-div{
+    display: flex; justify-content: center;
+    margin: 1vw;
+}
+.sub-settings-btn{
+    background-color: white;
+    font-size: 1.8vw;
+    font-family: 'Karla', sans-serif;
+    transition: 0.5s;
+    border-radius: 2vw;
+    border: solid black 0.3vw;
+}.sub-settings-btn:hover{
+    background-color: rgb(8, 160, 33);
+    border: solid rgb(8, 160, 33) 0.3vw;
+    color: white;
+}
+
+
+
+
