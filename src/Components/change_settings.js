@@ -2,6 +2,9 @@ import React, { useState } from "react";
 
 function change_settings(mode,hours,minutes,seconds,set_settings,settings,set_form_appear,set_subform_appear){
     let arr = []
+    hours = parseInt(hours); 
+    minutes = parseInt(minutes); 
+    seconds = parseInt(seconds); 
     const time = hours*3600 + minutes*60 + seconds; 
 
     if(time>0){
